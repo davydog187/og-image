@@ -52,13 +52,13 @@ function getArray(stringOrArray: string[] | string | undefined): string[] {
 
 function getDefaultImages(images: string[], theme: Theme): string[] {
     const defaultImage = theme === 'light'
-        ? 'https://github.com/davydog187/og-image/blob/main/public/pineapple.jpg?raw=true'
-        : 'https://github.com/davydog187/og-image/blob/main/public/pineapple.jpg?raw=true';
+        ? 'https://davelucia.com/images/pineapple.jpg'
+        : 'https://davelucia.com/images/pineapple.jpg';
 
     if (!images || !images[0]) {
         return [defaultImage];
     }
-    if (!images[0].startsWith('https://github.com/davydog187')) {
+    if (!images[0].startsWith('https://davelucia.com/')) {
         images[0] = defaultImage;
     }
     return images;
