@@ -52,8 +52,8 @@ function getArray(stringOrArray: string[] | string | undefined): string[] {
 
 function getDefaultImages(images: string[], theme: Theme): string[] {
     const defaultImage = theme === 'light'
-        ? 'https://davelucia.com/images/pineapple.jpg'
-        : 'https://davelucia.com/images/pineapple.jpg';
+        ? 'https://davelucia.com/images/pineapple-trans.png'
+        : 'https://davelucia.com/images/pineapple-trans.png';
 
     if (!images || !images[0]) {
         return [defaultImage];

@@ -74,7 +74,7 @@ function getCss(theme: string, fontSize: string) {
     }
 
     .logo {
-        margin: 0 75px;
+        margin: 0 150px;
     }
 
     .plus {
