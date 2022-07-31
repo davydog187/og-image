@@ -52,13 +52,13 @@ function getArray(stringOrArray: string[] | string | undefined): string[] {
 
 function getDefaultImages(images: string[], theme: Theme): string[] {
     const defaultImage = theme === 'light'
-        ? 'https://assets.vercel.com/image/upload/front/assets/design/vercel-triangle-black.svg'
-        : 'https://assets.vercel.com/image/upload/front/assets/design/vercel-triangle-white.svg';
+        ? 'https://github.com/davydog187/og-image/blob/main/public/pineapple.jpg?raw=true'
+        : 'https://github.com/davydog187/og-image/blob/main/public/pineapple.jpg?raw=true';
 
     if (!images || !images[0]) {
         return [defaultImage];
     }
-    if (!images[0].startsWith('https://assets.vercel.com/') && !images[0].startsWith('https://assets.zeit.co/')) {
+    if (!images[0].startsWith('https://github.com/davydog187')) {
         images[0] = defaultImage;
     }
     return images;

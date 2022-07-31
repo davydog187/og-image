@@ -145,7 +145,7 @@ const markdownOptions: DropdownOption[] = [
 ];
 
 const imageLightOptions: DropdownOption[] = [
-    { text: "Pineapple", value: "https://github.com/davydog187/og-image/blob/main/public/pineapple.jpg?raw=true" },
+    { text: "Pineapple", value: "https://raw.githubusercontent.com/davydog187/og-image/main/public/pineapple.jpg?token=GHSAT0AAAAAABT5TV4NUW2YTSPAIYDQZ5EAYXGUEQQ" },
     { text: 'Vercel', value: 'https://assets.vercel.com/image/upload/front/assets/design/vercel-triangle-black.svg' },
     { text: 'Next.js', value: 'https://assets.vercel.com/image/upload/front/assets/design/nextjs-black-logo.svg' },
     { text: 'Hyper', value: 'https://assets.vercel.com/image/upload/front/assets/design/hyper-color-logo.svg' },
